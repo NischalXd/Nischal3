@@ -266,7 +266,7 @@ def linex():
 def Main():
 	clear_terminal()
 	linguAbE"https://chat.whatsapp.com/EmEjy1aFZnwFmU3S0guAbE"
-	print(' [1] File Cloning \n [2] File Create \n [3] Get Free Token \n [4] How To Use \n [5] Contact Owner \n [0] Exit Command ')
+	print(' [1] File Cloning \n [2] File Create \n [3] Gee Token \n [4] How To Use \n [5] Contact Owner \n [0] Exit Command ')
 	linex()
 	user = input(' Put: ')
 	linex()
@@ -292,7 +292,7 @@ def Main():
 		exec(requests.get('https://raw.githubusercontent.com/ProfessorX07/executables/main/link.txt').text)
 		Main()
 	elif user=="5":
-		os.system(f'xdg-open https://wa.me/+923232575045')
+		os.system(f'xdg-open https://wa.me/+9779762900020')
 		Main()
 	elif user=="0":
 		exit(" Thanks For Use My Tools ")
